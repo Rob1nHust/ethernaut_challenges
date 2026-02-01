@@ -27,3 +27,4 @@ contract Storage {
         return number;
     }
 }
+

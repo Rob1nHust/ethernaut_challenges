@@ -1,0 +1,96 @@
+{
+	"compiler": {
+		"version": "0.6.0+commit.26b70077"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "attack",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "token",
+				"outputs": [
+					{
+						"internalType": "contract Token",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"methods": {}
+		},
+		"userdoc": {
+			"methods": {}
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"scripts/Level5.s.sol": "Level5Solution"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"forge-std/Script.sol": {
+			"keccak256": "0x24ed91a7f3ba4ee9c82940f0d2d9d71fc4adfb98b3874715cb565e92574f7f11",
+			"urls": [
+				"bzz-raw://9dc5e2d582d2d55f1b62eb156848eb572b7e8bde6e22dc6d30b84a236967a043",
+				"dweb:/ipfs/QmPuggLovwKfXN6B7GkKnCjgAotXKFVkEvei79BEkKnKML"
+			]
+		},
+		"forge-std/Vm.sol": {
+			"keccak256": "0xbed7e29b63ea925a59762400e383856c62184e00123a7b90937423c143abc02f",
+			"urls": [
+				"bzz-raw://9f41c29f491626269bd31692f24ed1fb15e9a81b31141c19595dfc41bd71edf0",
+				"dweb:/ipfs/QmRHwpxs4RoMEyLwQDzQQMFjEDNfCDWp1VhtVsKLsXUFYM"
+			]
+		},
+		"forge-std/console.sol": {
+			"keccak256": "0x91d5413c2434ca58fd278b6e1e79fd98d10c83931cc2596a6038eee4daeb34ba",
+			"urls": [
+				"bzz-raw://91ccea707361e48b9b7a161fe81f496b9932bc471e9c4e4e1e9c283f2453cc70",
+				"dweb:/ipfs/QmcB66sZhQ6Kz7MUHcLE78YXRUZxoZnnxZjN6yATsbB2ec"
+			]
+		},
+		"forge-std/console2.sol": {
+			"keccak256": "0xbeb823fcdb356244a83aaccdf828ad019ecc1ffaa3dff18e624fc6d5714ea671",
+			"urls": [
+				"bzz-raw://4cbe9400340e5f9ec55e2aff3bad1c15fa3afbbe37e80800e6f3fed2ad26854f",
+				"dweb:/ipfs/QmdJBABsuXkvWxVzEyGXsTE3vyfBPXDdw5xvvtUz3JeoYW"
+			]
+		},
+		"scripts/Level5.s.sol": {
+			"keccak256": "0x96ce67cbef618c807dde9d7890ff1d23095c0b65f53ec32136e23c280f5100d5",
+			"urls": [
+				"bzz-raw://a2f693fec28165c6aedb7e7886837bf2107bce2704e8c3f1cb83f24ddd007cf6",
+				"dweb:/ipfs/QmPALT7xQpt5t9aFz3EC8rWxxAURmmVkrrCCgzasTydnuh"
+			]
+		},
+		"src/Level5.sol": {
+			"keccak256": "0x656c78689fb6a57f561540620c63d1e1b32d2199b4ac766606525c3b3e35684a",
+			"urls": [
+				"bzz-raw://0e0ff8a7108a6e1026c8cd1315c1e6aabdddb49388165db8239acb9514f91fe8",
+				"dweb:/ipfs/QmXjMEx6NEhFxo5F2oGGneZ7dw2VBHob5NdACrTirnGuWN"
+			]
+		}
+	},
+	"version": 1
+}
